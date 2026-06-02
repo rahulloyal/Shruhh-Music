@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🎵 Shruhh Music
+# Shruhh Music
 
 <img src="app-icon.png" width="120" height="120" style="border-radius: 24px;" alt="Shruhh Music Logo" />
 
@@ -47,12 +47,10 @@
 ### 🔍 Smart Discovery
 - **Trending Now** — Real-time trending albums, playlists, and songs updated daily
 - **Find New** — Discover fresh releases filtered by language (Hindi, Punjabi, English, Tamil, Telugu & more)
-- **EchoFind** — AI-powered song recognition to identify what's playing around you
 - **Top Charts & Editorial Picks** — Handpicked playlists curated for every mood
 - **Radio Stations** — Curated mood-based radio stations (Lofi, Romantic, Party, Chill, and more)
 
 ### 🤖 AI-Powered Intelligence
-- **Gemini AI Integration** — AI-powered playlist generation based on your mood or prompt
 - **Smart Recommendations** — Machine learning-based song suggestions that learn your taste
 - **Auto-Play Engine** — Intelligent queue management that never lets the music stop
 - **Mood-Based Recommendation Engine** — Analyzes energy, tempo, genre, and language to suggest the perfect next track
@@ -128,14 +126,14 @@
 │  │           Component Layer              │ │
 │  │  Player · SongCard · ArtistProfile     │ │
 │  │  AlbumProfile · PlaylistModal · Queue  │ │
-│  │  EchoFind · ProfileView · Library      │ │
+│  │      · ProfileView · Library           │ │
 │  └────────────────┬───────────────────────┘ │
 │                   │                         │
 │  ┌────────────────▼───────────────────────┐ │
 │  │            Service Layer               │ │
 │  │  Music API · Recommendation Engine     │ │
 │  │  Auto-Play · Offline Storage           │ │
-│  │  Smart Playlists · Gemini AI           │ │
+│  │         Smart Playlists                │ │
 │  │  User Behavior · Pre-fetch · Color     │ │
 │  └────────────────┬───────────────────────┘ │
 │                   │                         │
